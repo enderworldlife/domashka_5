@@ -46,22 +46,39 @@
 
 
 
-int[,] array = new int[2, 5] {
-    {0, 1, 2, 3, 4},
-    {10, 11, 12, 13, 14}
-};
+// int[,] array = new int[2, 5] {
+//     {0, 1, 2, 3, 4},
+//     {10, 11, 12, 13, 14}
+// };
 
-for (int i = 1; i >= 0; i--) {
-    for (int j = 0; j < 5; j++) {
-        Console.Write(array[i, j] + " ");
-    }
-    Console.WriteLine();
-}
+// for (int i = 1; i >= 0; i--) {
+//     for (int j = 0; j < 5; j++) {
+//         Console.Write(array[i, j] + " ");
+//     }
+//     Console.WriteLine();
+// }
 
+// Задача 3: Задайте прямоугольный двумерный массив. 
+// Напишите программу, которая будет находить 
+// строку с наименьшей суммой элементов.
 
+// int[,] massiv = new int[,]{
+//     {50,45,76,24,11},
+//     {99,78,42,32,89},
+//     {88,62,47,94,53},
+//     {5, 90,78,19,84}
+// };
 
-
-
+// int min = 100;
+// for (int i = 0; i < 4; i++) {
+//     for (int j = 0; j < 5; j++) {
+//         if (massiv[i,j] < min){
+//             min = massiv[i,j];
+//         }
+//     }
+//     Console.WriteLine();
+// }
+// Console.WriteLine(min);
 
 
 
